@@ -26,7 +26,7 @@ end
 while(true)
   read_parse()
   $model.update()
-  STDERR.puts $model.exec
+  # STDERR.puts $model.exec
   puts $model.exec()
   STDOUT.flush()
 end
